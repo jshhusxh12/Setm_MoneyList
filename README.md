@@ -8,3 +8,6 @@
 ```diff
 - 해당 스크립트는 테스트 스크립트 이기때문에, 코드 최적화와 오류가 발생할수있습니다.
 ```
+
+[FiveM](https://fivem.net)
+[Discord](https://discord.com/)
