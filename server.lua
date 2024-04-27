@@ -14,7 +14,7 @@ local rewards = {
     ]]
 }
 
-function giveItemPlr()
+function giveItemUser()
     local users = vRP.getUsers({})
     for k, v in pairs(users) do
         local user_id = vRP.getUserId({k})
@@ -33,6 +33,6 @@ end
 Citizen.CreateThread(function()
     while true do
         Wait(WaitTime)
-        giveItemPlr()
+        giveItemUser()
     end
 end)
